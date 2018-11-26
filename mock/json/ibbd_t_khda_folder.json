@@ -1,0 +1,181 @@
+{
+    "code": 0,
+    "error": {
+        "msg": ""
+    },
+    "data": {
+        "mappings": {
+            "ibbd_t_khda_folder": {
+                "dynamic": "false",
+                "properties": {
+                    "acct_card_no": {
+                        "type": "keyword"
+                    },
+                    "acode_code": {
+                        "type": "keyword"
+                    },
+                    "address": {
+                        "type": "text"
+                    },
+                    "birth_date": {
+                        "type": "date",
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "card_number1": {
+                        "type": "keyword"
+                    },
+                    "card_number10": {
+                        "type": "keyword"
+                    },
+                    "card_number11": {
+                        "type": "keyword"
+                    },
+                    "card_number12": {
+                        "type": "keyword"
+                    },
+                    "card_number13": {
+                        "type": "keyword"
+                    },
+                    "card_number14": {
+                        "type": "keyword"
+                    },
+                    "card_number15": {
+                        "type": "keyword"
+                    },
+                    "card_number2": {
+                        "type": "keyword"
+                    },
+                    "card_number3": {
+                        "type": "keyword"
+                    },
+                    "card_number4": {
+                        "type": "keyword"
+                    },
+                    "card_number5": {
+                        "type": "keyword"
+                    },
+                    "card_number6": {
+                        "type": "keyword"
+                    },
+                    "card_number7": {
+                        "type": "keyword"
+                    },
+                    "card_number8": {
+                        "type": "keyword"
+                    },
+                    "card_number9": {
+                        "type": "keyword"
+                    },
+                    "cert_begin_date": {
+                        "type": "date",
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "cert_end_date": {
+                        "type": "date",
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "cert_no": {
+                        "type": "keyword"
+                    },
+                    "cert_type": {
+                        "type": "keyword"
+                    },
+                    "certtypecode": {
+                        "type": "keyword"
+                    },
+                    "client_name": {
+                        "type": "keyword"
+                    },
+                    "client_no": {
+                        "type": "keyword"
+                    },
+                    "client_status_code": {
+                        "type": "keyword"
+                    },
+                    "client_type": {
+                        "type": "keyword"
+                    },
+                    "client_type_code": {
+                        "type": "keyword"
+                    },
+                    "close_date": {
+                        "type": "date",
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "corp_type_code": {
+                        "type": "keyword"
+                    },
+                    "create_date": {
+                        "type": "date",
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "gender": {
+                        "type": "keyword"
+                    },
+                    "id": {
+                        "type": "keyword"
+                    },
+                    "issueauthnaticode": {
+                        "type": "keyword"
+                    },
+                    "last_modify_date": {
+                        "type": "date",
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "last_modify_user": {
+                        "type": "keyword"
+                    },
+                    "md5": {
+                        "type": "keyword"
+                    },
+                    "minorflag": {
+                        "type": "keyword"
+                    },
+                    "op_acct_date": {
+                        "type": "date",
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "photo_path": {
+                        "type": "keyword"
+                    },
+                    "ptytypecode": {
+                        "type": "keyword"
+                    },
+                    "public_property": {
+                        "type": "keyword"
+                    },
+                    "reserve1": {
+                        "type": "keyword"
+                    },
+                    "reserve2": {
+                        "type": "keyword"
+                    },
+                    "reserve3": {
+                        "type": "keyword"
+                    },
+                    "reserve4": {
+                        "type": "keyword"
+                    },
+                    "reserve5": {
+                        "type": "keyword"
+                    },
+                    "risk_grade": {
+                        "type": "keyword"
+                    },
+                    "shb_secu_acct": {
+                        "type": "keyword"
+                    },
+                    "stkhld_card_no": {
+                        "type": "keyword"
+                    },
+                    "szb_secu_acct": {
+                        "type": "keyword"
+                    },
+                    "traffic_dept": {
+                        "type": "keyword"
+                    }
+                }
+            }
+        }
+    }
+}

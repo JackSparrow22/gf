@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "error": {
+        "msg": ""
+    },
+    "data": [
+        "t_khda_attac",
+        "ibbd_t_khda_check_wf_item",
+        "gdda-app",
+        "index",
+        "ibbd_t_khda_info_temp",
+        "ibbd_pub_cust_info",
+        "t_khda_box_info",
+        "gdda_ik_20181024",
+        "gdda-document",
+        "gdda-archive_a",
+        "gf_location_201712251733",
+        "ibbd_t_khda_suff_temp",
+        "mos_rgw_metadata",
+        "mos_rgw_auditlog",
+        "ibbd_t_khda_folder",
+        "ibbd_t_khda_info_temp_jn",
+        "t_khda_info_temp",
+        "gdda-document-new",
+        "gf_location_201801030951",
+        "ibbd_video_review"
+    ]
+}

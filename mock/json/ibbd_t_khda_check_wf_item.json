@@ -1,0 +1,82 @@
+{
+    "code": 0,
+    "error": {
+        "msg": ""
+    },
+    "data": {
+        "mappings": {
+            "ibbd_t_khda_check_wf_item": {
+                "dynamic": "false",
+                "properties": {
+                    "apply_dept_flag": {
+                        "type": "keyword"
+                    },
+                    "apply_time": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "apply_user_id": {
+                        "type": "keyword"
+                    },
+                    "apply_user_name": {
+                        "type": "keyword"
+                    },
+                    "box_info_id": {
+                        "type": "keyword"
+                    },
+                    "checked_dept_flag": {
+                        "type": "keyword"
+                    },
+                    "checked_node": {
+                        "type": "keyword"
+                    },
+                    "checked_node_memo": {
+                        "type": "text"
+                    },
+                    "checked_node_next": {
+                        "type": "keyword"
+                    },
+                    "checked_node_pre": {
+                        "type": "keyword"
+                    },
+                    "checked_remark": {
+                        "type": "text"
+                    },
+                    "checked_result": {
+                        "type": "keyword"
+                    },
+                    "checked_time": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "checked_type": {
+                        "type": "keyword"
+                    },
+                    "checked_user_id": {
+                        "type": "keyword"
+                    },
+                    "checked_user_name": {
+                        "type": "keyword"
+                    },
+                    "checked_wf_detail": {
+                        "type": "text"
+                    },
+                    "handover_id": {
+                        "type": "keyword"
+                    },
+                    "id": {
+                        "type": "keyword"
+                    },
+                    "info_temp_id": {
+                        "type": "keyword"
+                    },
+                    "target_id": {
+                        "type": "keyword"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1214 @@
+{
+    "rule": "测试加入index4",
+    "index": "t_khda_folder",
+    "alias": "",
+    "mapping": {
+        "acct_card_no": {
+            "type": "keyword"
+        },
+        "acode_code": {
+            "type": "keyword"
+        },
+        "address": {
+            "type": "text"
+        },
+        "birth_date": {
+            "type": "date",
+            "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+        },
+        "card_number1": {
+            "type": "keyword"
+        },
+        "card_number10": {
+            "type": "keyword"
+        },
+        "card_number11": {
+            "type": "keyword"
+        },
+        "card_number12": {
+            "type": "keyword"
+        },
+        "card_number13": {
+            "type": "keyword"
+        },
+        "card_number14": {
+            "type": "keyword"
+        },
+        "card_number15": {
+            "type": "keyword"
+        },
+        "card_number2": {
+            "type": "keyword"
+        },
+        "card_number3": {
+            "type": "keyword"
+        },
+        "card_number4": {
+            "type": "keyword"
+        },
+        "card_number5": {
+            "type": "keyword"
+        },
+        "card_number6": {
+            "type": "keyword"
+        },
+        "card_number7": {
+            "type": "keyword"
+        },
+        "card_number8": {
+            "type": "keyword"
+        },
+        "card_number9": {
+            "type": "keyword"
+        },
+        "cert_begin_date": {
+            "type": "date",
+            "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+        },
+        "cert_end_date": {
+            "type": "date",
+            "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+        },
+        "cert_no": {
+            "type": "keyword"
+        },
+        "cert_type": {
+            "type": "keyword"
+        },
+        "certtypecode": {
+            "type": "keyword"
+        },
+        "client_name": {
+            "type": "keyword"
+        },
+        "client_no": {
+            "type": "keyword"
+        },
+        "client_status_code": {
+            "type": "keyword"
+        },
+        "client_type": {
+            "type": "keyword"
+        },
+        "client_type_code": {
+            "type": "keyword"
+        },
+        "close_date": {
+            "type": "date",
+            "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+        },
+        "corp_type_code": {
+            "type": "keyword"
+        },
+        "create_date": {
+            "type": "date",
+            "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+        },
+        "gender": {
+            "type": "keyword"
+        },
+        "id": {
+            "type": "keyword"
+        },
+        "issueauthnaticode": {
+            "type": "keyword"
+        },
+        "last_modify_date": {
+            "type": "date",
+            "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+        },
+        "last_modify_user": {
+            "type": "keyword"
+        },
+        "md5": {
+            "type": "keyword"
+        },
+        "minorflag": {
+            "type": "keyword"
+        },
+        "op_acct_date": {
+            "type": "date",
+            "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+        },
+        "phone": {
+            "type": "text",
+            "fields": {
+                "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                }
+            }
+        },
+        "photo_path": {
+            "type": "keyword"
+        },
+        "ptytypecode": {
+            "type": "keyword"
+        },
+        "public_property": {
+            "type": "keyword"
+        },
+        "reserve1": {
+            "type": "keyword"
+        },
+        "reserve2": {
+            "type": "keyword"
+        },
+        "reserve3": {
+            "type": "keyword"
+        },
+        "reserve4": {
+            "type": "keyword"
+        },
+        "reserve5": {
+            "type": "keyword"
+        },
+        "risk_grade": {
+            "type": "keyword"
+        },
+        "shb_secu_acct": {
+            "type": "keyword"
+        },
+        "stkhld_card_no": {
+            "type": "keyword"
+        },
+        "szb_secu_acct": {
+            "type": "keyword"
+        },
+        "traffic_dept": {
+            "type": "keyword"
+        }
+    },
+    "normal": {
+        "acct_card_no": {
+            "key": "acct_card_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": true
+        },
+        "acode_code": {
+            "key": "acode_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": true
+        },
+        "address": {
+            "key": "address",
+            "type": "text",
+            "alias": "",
+            "selected": true
+        },
+        "birth_date": {
+            "key": "birth_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "card_number1": {
+            "key": "card_number1",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number10": {
+            "key": "card_number10",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number11": {
+            "key": "card_number11",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number12": {
+            "key": "card_number12",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number13": {
+            "key": "card_number13",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number14": {
+            "key": "card_number14",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number15": {
+            "key": "card_number15",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number2": {
+            "key": "card_number2",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number3": {
+            "key": "card_number3",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number4": {
+            "key": "card_number4",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number5": {
+            "key": "card_number5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number6": {
+            "key": "card_number6",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number7": {
+            "key": "card_number7",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number8": {
+            "key": "card_number8",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number9": {
+            "key": "card_number9",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "cert_begin_date": {
+            "key": "cert_begin_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "cert_end_date": {
+            "key": "cert_end_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "cert_no": {
+            "key": "cert_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "cert_type": {
+            "key": "cert_type",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "certtypecode": {
+            "key": "certtypecode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_name": {
+            "key": "client_name",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_no": {
+            "key": "client_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_status_code": {
+            "key": "client_status_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_type": {
+            "key": "client_type",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_type_code": {
+            "key": "client_type_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "close_date": {
+            "key": "close_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "corp_type_code": {
+            "key": "corp_type_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "create_date": {
+            "key": "create_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "gender": {
+            "key": "gender",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "id": {
+            "key": "id",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "issueauthnaticode": {
+            "key": "issueauthnaticode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "last_modify_date": {
+            "key": "last_modify_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "last_modify_user": {
+            "key": "last_modify_user",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "md5": {
+            "key": "md5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "minorflag": {
+            "key": "minorflag",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "op_acct_date": {
+            "key": "op_acct_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "phone": {
+            "key": "phone",
+            "type": "text",
+            "alias": "",
+            "selected": false
+        },
+        "photo_path": {
+            "key": "photo_path",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "ptytypecode": {
+            "key": "ptytypecode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "public_property": {
+            "key": "public_property",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve1": {
+            "key": "reserve1",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve2": {
+            "key": "reserve2",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve3": {
+            "key": "reserve3",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve4": {
+            "key": "reserve4",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve5": {
+            "key": "reserve5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "risk_grade": {
+            "key": "risk_grade",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "shb_secu_acct": {
+            "key": "shb_secu_acct",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "stkhld_card_no": {
+            "key": "stkhld_card_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "szb_secu_acct": {
+            "key": "szb_secu_acct",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "traffic_dept": {
+            "key": "traffic_dept",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        }
+    },
+    "advance": {
+        "acct_card_no": {
+            "key": "acct_card_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": true,
+            "componentType": "input"
+        },
+        "acode_code": {
+            "key": "acode_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": true,
+            "componentType": "input"
+        },
+        "address": {
+            "key": "address",
+            "type": "text",
+            "alias": "",
+            "selected": true,
+            "componentType": "input"
+        },
+        "birth_date": {
+            "key": "birth_date",
+            "type": "date",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number1": {
+            "key": "card_number1",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number10": {
+            "key": "card_number10",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number11": {
+            "key": "card_number11",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number12": {
+            "key": "card_number12",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number13": {
+            "key": "card_number13",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number14": {
+            "key": "card_number14",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number15": {
+            "key": "card_number15",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number2": {
+            "key": "card_number2",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number3": {
+            "key": "card_number3",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number4": {
+            "key": "card_number4",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number5": {
+            "key": "card_number5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number6": {
+            "key": "card_number6",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number7": {
+            "key": "card_number7",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number8": {
+            "key": "card_number8",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "card_number9": {
+            "key": "card_number9",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "cert_begin_date": {
+            "key": "cert_begin_date",
+            "type": "date",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "cert_end_date": {
+            "key": "cert_end_date",
+            "type": "date",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "cert_no": {
+            "key": "cert_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "cert_type": {
+            "key": "cert_type",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "certtypecode": {
+            "key": "certtypecode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "client_name": {
+            "key": "client_name",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "client_no": {
+            "key": "client_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "client_status_code": {
+            "key": "client_status_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "client_type": {
+            "key": "client_type",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "client_type_code": {
+            "key": "client_type_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "close_date": {
+            "key": "close_date",
+            "type": "date",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "corp_type_code": {
+            "key": "corp_type_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "create_date": {
+            "key": "create_date",
+            "type": "date",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "gender": {
+            "key": "gender",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "id": {
+            "key": "id",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "issueauthnaticode": {
+            "key": "issueauthnaticode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "last_modify_date": {
+            "key": "last_modify_date",
+            "type": "date",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "last_modify_user": {
+            "key": "last_modify_user",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "md5": {
+            "key": "md5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "minorflag": {
+            "key": "minorflag",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "op_acct_date": {
+            "key": "op_acct_date",
+            "type": "date",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "phone": {
+            "key": "phone",
+            "type": "text",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "photo_path": {
+            "key": "photo_path",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "ptytypecode": {
+            "key": "ptytypecode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "public_property": {
+            "key": "public_property",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "reserve1": {
+            "key": "reserve1",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "reserve2": {
+            "key": "reserve2",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "reserve3": {
+            "key": "reserve3",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "reserve4": {
+            "key": "reserve4",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "reserve5": {
+            "key": "reserve5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "risk_grade": {
+            "key": "risk_grade",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "shb_secu_acct": {
+            "key": "shb_secu_acct",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "stkhld_card_no": {
+            "key": "stkhld_card_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "szb_secu_acct": {
+            "key": "szb_secu_acct",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        },
+        "traffic_dept": {
+            "key": "traffic_dept",
+            "type": "keyword",
+            "alias": "",
+            "selected": false,
+            "componentType": "input"
+        }
+    },
+    "result": {
+        "acct_card_no": {
+            "key": "acct_card_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": true
+        },
+        "acode_code": {
+            "key": "acode_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": true
+        },
+        "address": {
+            "key": "address",
+            "type": "text",
+            "alias": "",
+            "selected": true
+        },
+        "birth_date": {
+            "key": "birth_date",
+            "type": "date",
+            "alias": "",
+            "selected": true
+        },
+        "card_number1": {
+            "key": "card_number1",
+            "type": "keyword",
+            "alias": "",
+            "selected": true
+        },
+        "card_number10": {
+            "key": "card_number10",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number11": {
+            "key": "card_number11",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number12": {
+            "key": "card_number12",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number13": {
+            "key": "card_number13",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number14": {
+            "key": "card_number14",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number15": {
+            "key": "card_number15",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number2": {
+            "key": "card_number2",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number3": {
+            "key": "card_number3",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number4": {
+            "key": "card_number4",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number5": {
+            "key": "card_number5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number6": {
+            "key": "card_number6",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number7": {
+            "key": "card_number7",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number8": {
+            "key": "card_number8",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "card_number9": {
+            "key": "card_number9",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "cert_begin_date": {
+            "key": "cert_begin_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "cert_end_date": {
+            "key": "cert_end_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "cert_no": {
+            "key": "cert_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "cert_type": {
+            "key": "cert_type",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "certtypecode": {
+            "key": "certtypecode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_name": {
+            "key": "client_name",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_no": {
+            "key": "client_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_status_code": {
+            "key": "client_status_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_type": {
+            "key": "client_type",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "client_type_code": {
+            "key": "client_type_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "close_date": {
+            "key": "close_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "corp_type_code": {
+            "key": "corp_type_code",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "create_date": {
+            "key": "create_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "gender": {
+            "key": "gender",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "id": {
+            "key": "id",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "issueauthnaticode": {
+            "key": "issueauthnaticode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "last_modify_date": {
+            "key": "last_modify_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "last_modify_user": {
+            "key": "last_modify_user",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "md5": {
+            "key": "md5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "minorflag": {
+            "key": "minorflag",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "op_acct_date": {
+            "key": "op_acct_date",
+            "type": "date",
+            "alias": "",
+            "selected": false
+        },
+        "phone": {
+            "key": "phone",
+            "type": "text",
+            "alias": "",
+            "selected": false
+        },
+        "photo_path": {
+            "key": "photo_path",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "ptytypecode": {
+            "key": "ptytypecode",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "public_property": {
+            "key": "public_property",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve1": {
+            "key": "reserve1",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve2": {
+            "key": "reserve2",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve3": {
+            "key": "reserve3",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve4": {
+            "key": "reserve4",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "reserve5": {
+            "key": "reserve5",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "risk_grade": {
+            "key": "risk_grade",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "shb_secu_acct": {
+            "key": "shb_secu_acct",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "stkhld_card_no": {
+            "key": "stkhld_card_no",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "szb_secu_acct": {
+            "key": "szb_secu_acct",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        },
+        "traffic_dept": {
+            "key": "traffic_dept",
+            "type": "keyword",
+            "alias": "",
+            "selected": false
+        }
+    }
+}

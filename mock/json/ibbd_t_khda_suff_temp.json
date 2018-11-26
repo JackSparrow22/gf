@@ -1,0 +1,93 @@
+{
+    "code": 0,
+    "error": {
+        "msg": ""
+    },
+    "data": {
+        "mappings": {
+            "ibbd_t_khda_suff_temp": {
+                "dynamic": "false",
+                "properties": {
+                    "acode_code": {
+                        "type": "keyword"
+                    },
+                    "create_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "data_type": {
+                        "type": "keyword"
+                    },
+                    "del_flag": {
+                        "type": "integer",
+                        "ignore_malformed": true
+                    },
+                    "file_format": {
+                        "type": "keyword"
+                    },
+                    "file_name": {
+                        "type": "keyword"
+                    },
+                    "file_size": {
+                        "type": "integer",
+                        "ignore_malformed": true
+                    },
+                    "id": {
+                        "type": "keyword"
+                    },
+                    "info_id": {
+                        "type": "keyword"
+                    },
+                    "is_exist": {
+                        "type": "keyword"
+                    },
+                    "is_necessary": {
+                        "type": "keyword"
+                    },
+                    "is_screening": {
+                        "type": "keyword"
+                    },
+                    "is_share": {
+                        "type": "keyword"
+                    },
+                    "jn_ids": {
+                        "type": "text"
+                    },
+                    "last_modify_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "last_modify_user": {
+                        "type": "keyword"
+                    },
+                    "mould_id": {
+                        "type": "keyword"
+                    },
+                    "order_no": {
+                        "type": "text"
+                    },
+                    "path": {
+                        "type": "keyword"
+                    },
+                    "status": {
+                        "type": "keyword"
+                    },
+                    "storage_id": {
+                        "type": "keyword"
+                    },
+                    "stuff_code": {
+                        "type": "keyword"
+                    },
+                    "stuff_name": {
+                        "type": "keyword"
+                    },
+                    "suggestion": {
+                        "type": "text"
+                    }
+                }
+            }
+        }
+    }
+}

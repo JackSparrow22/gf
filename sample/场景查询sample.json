@@ -1,0 +1,57 @@
+{
+  "name": "地区营业厅流水查询",
+  //配置名称
+  "index": "index流水",
+  //es索引
+  "alias": "流水表",
+  //索引别名
+  "condition": [
+    //查询条件
+    {
+      //一个查询字段
+      "key": "流水表--营业厅",
+      "type": "keyword",
+      "alias": "xxxx",
+      "compomentType": "none",
+      "dataSource": [
+        {
+          //子查询，另一个表的桶查询，分组聚合或过滤聚合
+          "index": "营业厅字典表",
+          "condition": [
+            {
+              "key": "字典表--省",
+              "type": "keyword",
+              "alias": "xxx",
+              "compomentType": "select",
+              "dataSource": []
+            },
+            {
+              "key": "字典表--市",
+              "type": "keyword",
+              "alias": "xxx",
+              "compomentType": "select",
+              "dataSource": []
+            },
+            {
+              "key": "字典表--区",
+              "type": "keyword",
+              "alias": "xxx",
+              "compomentType": "mutipleSelect",
+              "dataSource": []
+            }
+          ],
+          "result": [
+            "字典表--营业厅"
+          ]
+        },
+      ]
+    }
+  ],
+  "result": [
+    //查询结果字段
+    "流水表字段--营业厅",
+    "流水表字段--客户",
+    "流水表字段--业务",
+    "流水表字段--时间 "
+  ]
+}

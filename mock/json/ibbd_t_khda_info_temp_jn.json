@@ -1,0 +1,256 @@
+{
+    "code": 0,
+    "error": {
+        "msg": ""
+    },
+    "data": {
+        "mappings": {
+            "ibbd_t_khda_info_temp_jn": {
+                "dynamic": "false",
+                "properties": {
+                    "account_type": {
+                        "type": "keyword"
+                    },
+                    "acct_card_no": {
+                        "type": "keyword"
+                    },
+                    "acode_code": {
+                        "type": "keyword"
+                    },
+                    "back_auditopinion": {
+                        "type": "text"
+                    },
+                    "belong_dept": {
+                        "type": "keyword"
+                    },
+                    "box_id": {
+                        "type": "keyword"
+                    },
+                    "box_no": {
+                        "type": "keyword"
+                    },
+                    "boxfileno": {
+                        "type": "keyword"
+                    },
+                    "busines_classify": {
+                        "type": "keyword"
+                    },
+                    "business_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "business_type": {
+                        "type": "keyword"
+                    },
+                    "card_number1": {
+                        "type": "keyword"
+                    },
+                    "card_number10": {
+                        "type": "keyword"
+                    },
+                    "card_number11": {
+                        "type": "keyword"
+                    },
+                    "card_number12": {
+                        "type": "keyword"
+                    },
+                    "card_number13": {
+                        "type": "keyword"
+                    },
+                    "card_number14": {
+                        "type": "keyword"
+                    },
+                    "card_number15": {
+                        "type": "keyword"
+                    },
+                    "card_number2": {
+                        "type": "keyword"
+                    },
+                    "card_number3": {
+                        "type": "keyword"
+                    },
+                    "card_number4": {
+                        "type": "keyword"
+                    },
+                    "card_number5": {
+                        "type": "keyword"
+                    },
+                    "card_number6": {
+                        "type": "keyword"
+                    },
+                    "card_number7": {
+                        "type": "keyword"
+                    },
+                    "card_number8": {
+                        "type": "keyword"
+                    },
+                    "card_number9": {
+                        "type": "keyword"
+                    },
+                    "check_zdxx_flag": {
+                        "type": "keyword"
+                    },
+                    "client_name": {
+                        "type": "keyword"
+                    },
+                    "client_no": {
+                        "type": "keyword"
+                    },
+                    "client_type": {
+                        "type": "keyword"
+                    },
+                    "condition": {
+                        "type": "keyword"
+                    },
+                    "copy_paperwork": {
+                        "type": "keyword"
+                    },
+                    "create_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "create_user": {
+                        "type": "keyword"
+                    },
+                    "data_type": {
+                        "type": "keyword"
+                    },
+                    "del_flag": {
+                        "type": "integer",
+                        "ignore_malformed": true
+                    },
+                    "delete_flag": {
+                        "type": "keyword"
+                    },
+                    "effective_paperwork": {
+                        "type": "keyword"
+                    },
+                    "entrust_mode": {
+                        "type": "keyword"
+                    },
+                    "file_c_type": {
+                        "type": "keyword"
+                    },
+                    "file_g_type": {
+                        "type": "keyword"
+                    },
+                    "file_p_type": {
+                        "type": "keyword"
+                    },
+                    "file_x_type": {
+                        "type": "keyword"
+                    },
+                    "generate_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "handoverexception": {
+                        "type": "keyword"
+                    },
+                    "id": {
+                        "type": "keyword"
+                    },
+                    "import_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "item_no": {
+                        "type": "keyword"
+                    },
+                    "last_modify_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "last_modify_user": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "YYYY-MM-DD'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "merge_flag": {
+                        "type": "keyword"
+                    },
+                    "one_number": {
+                        "type": "keyword"
+                    },
+                    "order_no": {
+                        "type": "integer",
+                        "ignore_malformed": true
+                    },
+                    "org_no": {
+                        "type": "keyword"
+                    },
+                    "ower_id": {
+                        "type": "keyword"
+                    },
+                    "package_id": {
+                        "type": "keyword"
+                    },
+                    "package_no": {
+                        "type": "keyword"
+                    },
+                    "page_num": {
+                        "type": "integer",
+                        "ignore_malformed": true
+                    },
+                    "publish_type": {
+                        "type": "keyword"
+                    },
+                    "remark": {
+                        "type": "text"
+                    },
+                    "reserve1": {
+                        "type": "keyword"
+                    },
+                    "reserve2": {
+                        "type": "keyword"
+                    },
+                    "reserve3": {
+                        "type": "keyword"
+                    },
+                    "reserve4": {
+                        "type": "keyword"
+                    },
+                    "reserve5": {
+                        "type": "keyword"
+                    },
+                    "serial_no": {
+                        "type": "integer",
+                        "ignore_malformed": true
+                    },
+                    "shb_secu_acct": {
+                        "type": "keyword"
+                    },
+                    "state": {
+                        "type": "keyword"
+                    },
+                    "status": {
+                        "type": "keyword"
+                    },
+                    "status1": {
+                        "type": "keyword"
+                    },
+                    "stkhld_card_no": {
+                        "type": "keyword"
+                    },
+                    "suggestion": {
+                        "type": "keyword"
+                    },
+                    "szb_secu_acct": {
+                        "type": "keyword"
+                    },
+                    "traffic_dept": {
+                        "type": "keyword"
+                    },
+                    "traffic_dept_flag": {
+                        "type": "keyword"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "code": 0,
+    "error": {
+        "msg": ""
+    },
+    "data": {
+        "mappings": {
+            "archive": {
+                "properties": {
+                    "amount_of_pages": {
+                        "type": "integer"
+                    },
+                    "archive_type_id": {
+                        "type": "keyword"
+                    },
+                    "archives_archival_code": {
+                        "type": "keyword"
+                    },
+                    "barcode": {
+                        "type": "keyword"
+                    },
+                    "c0": {
+                        "type": "keyword"
+                    },
+                    "c1": {
+                        "type": "keyword"
+                    },
+                    "c100": {
+                        "type": "keyword"
+                    },
+                    "c101": {
+                        "type": "keyword"
+                    },
+                    "c103": {
+                        "type": "keyword"
+                    },
+                    "c104": {
+                        "type": "keyword"
+                    },
+                    "c105": {
+                        "type": "keyword"
+                    },
+                    "c106": {
+                        "type": "keyword"
+                    },
+                    "c107": {
+                        "type": "keyword"
+                    },
+                    "c108": {
+                        "type": "keyword"
+                    },
+                    "c109": {
+                        "type": "keyword"
+                    },
+                    "c112": {
+                        "type": "keyword"
+                    },
+                    "c113": {
+                        "type": "keyword"
+                    },
+                    "c117": {
+                        "type": "keyword"
+                    },
+                    "c121": {
+                        "type": "keyword"
+                    },
+                    "c122": {
+                        "type": "keyword"
+                    },
+                    "c2": {
+                        "type": "keyword"
+                    },
+                    "c89": {
+                        "type": "keyword"
+                    },
+                    "c90": {
+                        "type": "keyword"
+                    },
+                    "c92": {
+                        "type": "keyword"
+                    },
+                    "c93": {
+                        "type": "keyword"
+                    },
+                    "c98": {
+                        "type": "keyword"
+                    },
+                    "case_no": {
+                        "type": "keyword"
+                    },
+                    "catalogue_name": {
+                        "type": "keyword"
+                    },
+                    "catalogue_no": {
+                        "type": "keyword"
+                    },
+                    "click_count": {
+                        "type": "integer"
+                    },
+                    "container_order_no": {
+                        "type": "keyword"
+                    },
+                    "container_status": {
+                        "type": "keyword"
+                    },
+                    "create_date": {
+                        "type": "keyword"
+                    },
+                    "create_user": {
+                        "type": "keyword"
+                    },
+                    "date_of_creation": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "delete_date": {
+                        "type": "keyword"
+                    },
+                    "delete_user": {
+                        "type": "keyword"
+                    },
+                    "file_code": {
+                        "type": "keyword"
+                    },
+                    "filing_date": {
+                        "type": "keyword"
+                    },
+                    "filing_dept": {
+                        "type": "keyword"
+                    },
+                    "filing_dept_id": {
+                        "type": "keyword"
+                    },
+                    "filing_user": {
+                        "type": "keyword"
+                    },
+                    "folder_no": {
+                        "type": "keyword"
+                    },
+                    "fonds_code": {
+                        "type": "keyword"
+                    },
+                    "id": {
+                        "type": "keyword"
+                    },
+                    "integrative_value": {
+                        "type": "text",
+                        "analyzer": "ik_smart"
+                    },
+                    "is_associated": {
+                        "type": "keyword"
+                    },
+                    "is_borrowed": {
+                        "type": "keyword"
+                    },
+                    "is_delete": {
+                        "type": "keyword"
+                    },
+                    "item_count": {
+                        "type": "integer"
+                    },
+                    "last_date": {
+                        "type": "keyword"
+                    },
+                    "last_user": {
+                        "type": "keyword"
+                    },
+                    "n11": {
+                        "type": "integer"
+                    },
+                    "office_archival_code": {
+                        "type": "keyword"
+                    },
+                    "opening_type": {
+                        "type": "keyword"
+                    },
+                    "owner_id": {
+                        "type": "keyword"
+                    },
+                    "parent_catalogue_name": {
+                        "type": "keyword"
+                    },
+                    "retention_period": {
+                        "type": "keyword"
+                    },
+                    "security_classification": {
+                        "type": "keyword"
+                    },
+                    "series_code": {
+                        "type": "keyword"
+                    },
+                    "status": {
+                        "type": "keyword"
+                    },
+                    "storage_place": {
+                        "type": "keyword"
+                    },
+                    "store_month_code": {
+                        "type": "keyword"
+                    },
+                    "store_year_code": {
+                        "type": "keyword"
+                    },
+                    "tag": {
+                        "type": "keyword"
+                    },
+                    "title_proper": {
+                        "type": "text",
+                        "analyzer": "ik_smart"
+                    },
+                    "type": {
+                        "type": "keyword"
+                    },
+                    "year_code": {
+                        "type": "integer"
+                    }
+                }
+            }
+        }
+    }
+}

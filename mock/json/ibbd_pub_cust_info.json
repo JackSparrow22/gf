@@ -1,0 +1,207 @@
+{
+    "code": 0,
+    "error": {
+        "msg": ""
+    },
+    "data": {
+        "mappings": {
+            "default": {
+                "dynamic": "false",
+                "properties": {
+                    "acode_code": {
+                        "type": "keyword"
+                    },
+                    "address": {
+                        "type": "text",
+                        "analyzer": "ik_smart"
+                    },
+                    "birth_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "cbs_cptl_agt_no": {
+                        "type": "keyword"
+                    },
+                    "cbs_grp_code": {
+                        "type": "keyword"
+                    },
+                    "cert_begin_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "cert_end_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "cert_no": {
+                        "type": "keyword"
+                    },
+                    "cert_type": {
+                        "type": "keyword"
+                    },
+                    "cert_type_code": {
+                        "type": "keyword"
+                    },
+                    "channel_code": {
+                        "type": "keyword"
+                    },
+                    "channel_name": {
+                        "type": "keyword"
+                    },
+                    "channel_type_code": {
+                        "type": "keyword"
+                    },
+                    "channel_type_name": {
+                        "type": "keyword"
+                    },
+                    "close_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "corp_type_code": {
+                        "type": "keyword"
+                    },
+                    "credit_end_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "credit_flag": {
+                        "type": "keyword"
+                    },
+                    "credit_op_acct_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "cust_risk_grade_code": {
+                        "type": "integer"
+                    },
+                    "cust_src": {
+                        "type": "keyword"
+                    },
+                    "edu_code": {
+                        "type": "integer"
+                    },
+                    "edu_name": {
+                        "type": "keyword"
+                    },
+                    "futures_flag": {
+                        "type": "keyword"
+                    },
+                    "futures_op_acct_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "gender": {
+                        "type": "keyword"
+                    },
+                    "gender_code": {
+                        "type": "keyword"
+                    },
+                    "id_address": {
+                        "type": "text",
+                        "analyzer": "ik_smart"
+                    },
+                    "id_begindate": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "id_enddate": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "is_export": {
+                        "type": "keyword"
+                    },
+                    "issue_auth_nati_code": {
+                        "type": "keyword"
+                    },
+                    "minor_flag": {
+                        "type": "keyword"
+                    },
+                    "mobile_tel": {
+                        "type": "keyword"
+                    },
+                    "mts_cptl_agt_no": {
+                        "type": "keyword"
+                    },
+                    "mts_grp_code": {
+                        "type": "keyword"
+                    },
+                    "occup_code": {
+                        "type": "integer"
+                    },
+                    "occup_name": {
+                        "type": "text",
+                        "analyzer": "ik_smart"
+                    },
+                    "op_acct_date": {
+                        "type": "date",
+                        "ignore_malformed": true,
+                        "format": "yyyy-MM-dd'T'HH:mm:ss.SSSZ||epoch_millis"
+                    },
+                    "org_name": {
+                        "type": "text",
+                        "analyzer": "ik_smart"
+                    },
+                    "org_no": {
+                        "type": "keyword"
+                    },
+                    "pty_name": {
+                        "type": "keyword"
+                    },
+                    "pty_no": {
+                        "type": "keyword"
+                    },
+                    "pty_status": {
+                        "type": "keyword"
+                    },
+                    "pty_status_code": {
+                        "type": "keyword"
+                    },
+                    "pty_type": {
+                        "type": "keyword"
+                    },
+                    "pty_type_code": {
+                        "type": "keyword"
+                    },
+                    "risk_grade": {
+                        "type": "keyword"
+                    },
+                    "sha_secu_acct": {
+                        "type": "keyword"
+                    },
+                    "shb_secu_acct": {
+                        "type": "keyword"
+                    },
+                    "sleep_flag": {
+                        "type": "keyword"
+                    },
+                    "sos_flag": {
+                        "type": "keyword"
+                    },
+                    "sos_src_type": {
+                        "type": "keyword"
+                    },
+                    "src_cust_no": {
+                        "type": "keyword"
+                    },
+                    "sza_secu_acct": {
+                        "type": "keyword"
+                    },
+                    "szb_secu_acct": {
+                        "type": "keyword"
+                    }
+                }
+            }
+        }
+    }
+}
